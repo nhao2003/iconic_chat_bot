@@ -1,0 +1,82 @@
+# Node.js dependencies
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.test
+.env.development
+.env.production
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.log
+logs/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Cache and output files
+.cache/
+*.tsbuildinfo
+*.lock
+
+# Test coverage reports
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+
+# Debugging
+*.pid
+*.seed
+*.pid.lock
+
+# Build tools
+.eslintcache
+.next/
+.out/
+
+# Swagger
+swagger.json
+swagger.yaml
+
+# TypeScript declaration files
+*.d.ts
+
+# Optional npm package files
+*.tgz
+
+# Docker files
+docker-compose.override.yml
+docker-compose.override.*.yml
+
+# IDE specific
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.ps1
+*.log
+
+# Local environment files
+local.env
+
+# Optional settings
+package-lock.json
+yarn.lock
