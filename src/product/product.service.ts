@@ -15,7 +15,7 @@ export class ProductService {
     const pipeline = [
       {
         $vectorSearch: {
-          index: 'searchIndex',
+          index: 'vector_index',
           queryVector: query_embedding,
           path: 'embedding',
           exact: true,

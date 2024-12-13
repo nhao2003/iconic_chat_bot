@@ -26,6 +26,7 @@ export class ChatService {
         intent.entities.product,
       );
       const products = await this.productService.findProducts(embedding);
+      console.log(products);
       const prompt =
         `Bạn là một tư vấn viên sản phẩm ảo.` +
         `Dưới đây là 5 sản phẩm phù hợp với câu hỏi của khách hàng.` +

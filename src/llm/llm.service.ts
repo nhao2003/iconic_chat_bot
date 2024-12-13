@@ -88,7 +88,6 @@ export class LlmService {
     const reponse = await this.generativeIntentModel.generateContent(
       this.promptLibrary.intentClassificationPrompt(input),
     );
-    console.log(this.promptLibrary.intentClassificationPrompt(input));
     console.log(reponse.response.text());
     return JSON.parse(reponse.response.text());
   }
