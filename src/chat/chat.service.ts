@@ -35,11 +35,15 @@ export class ChatService {
         `Danh sách sản phẩm:\n` +
         `${products.map((product, index) => `${index + 1}. ${product.name}. Giá: ${product.price}. Mô tả: ${product.description}`).join('\n')}`;
       return {
+        intent,
         answer: await this.llmService.generateResponse(prompt),
         products,
       };
     } else {
-      return intent;
+      return {
+        intent,
+        answer: await this.llmService.generateResponse(text),
+      };
     }
   }
 }
