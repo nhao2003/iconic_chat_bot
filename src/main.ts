@@ -2,9 +2,13 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 import { configDotenv } from 'dotenv';
+
 async function bootstrap() {
   configDotenv();
   const app = await NestFactory.create(AppModule);
+
+  // Enable CORS for all origins
+  app.enableCors();
 
   const config = new DocumentBuilder()
     .setTitle('Iconic API')

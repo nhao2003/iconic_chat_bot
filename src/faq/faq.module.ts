@@ -5,5 +5,6 @@ import { FaqController } from './faq.controller';
 @Module({
   controllers: [FaqController],
   providers: [FaqService],
+  exports: [FaqService],
 })
 export class FaqModule {}

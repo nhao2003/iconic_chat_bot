@@ -1,0 +1,37 @@
+[
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "name": "Chính sách giao hàng",
+    "description": "Thông tin về quy trình, thời gian và chi phí giao hàng."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "name": "Hoàn trả và hoàn tiền",
+    "description": "Cách thức đổi trả hàng và quy trình nhận lại tiền."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "name": "Phương thức thanh toán",
+    "description": "Các tùy chọn thanh toán được chấp nhận và cách sử dụng chúng."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "name": "Tài khoản và bảo mật",
+    "description": "Hướng dẫn quản lý tài khoản và đảm bảo thông tin cá nhân an toàn."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "name": "Khuyến mãi và mã giảm giá",
+    "description": "Cách áp dụng mã giảm giá và thông tin về các chương trình khuyến mãi."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "name": "Chăm sóc khách hàng",
+    "description": "Thông tin liên hệ và các dịch vụ hỗ trợ khách hàng."
+  },
+  {
+    "_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "name": "Hướng dẫn mua sắm",
+    "description": "Các bước để đặt hàng và theo dõi đơn hàng của bạn."
+  }
+]

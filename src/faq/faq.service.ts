@@ -13,10 +13,10 @@ export class FaqService {
   private readonly embeddingService: EmbeddingService;
   constructor() {
     this.mongoClient = new MongoClient(process.env.MONGO_URI);
-    this.faqCollection = this.mongoClient.db('iconic').collection('faq');
+    this.faqCollection = this.mongoClient.db('iconic').collection('faqs');
     this.faqCategoryCollection = this.mongoClient
       .db('iconic')
-      .collection('faq_category');
+      .collection('faqCategories');
   }
   async create(createFaqDto: CreateFaqDto) {
     const embedding = await this.embeddingService.embedContent(
@@ -42,6 +42,35 @@ export class FaqService {
       .skip(offset)
       .limit(limit)
       .toArray();
+  }
+
+  async findRelatedQuestions(embedding: number[]) {
+    const pipeline = [
+      {
+        $vectorSearch: {
+          index: 'faqSearchIndex',
+          queryVector: embedding,
+          path: 'embedding',
+          exact: true,
+          limit: 5,
+        },
+      },
+      {
+        $addFields: {
+          score: {
+            $meta: 'vectorSearchScore',
+          },
+        },
+      },
+      {
+        $project: {
+          embedding: 0,
+        },
+      },
+    ];
+
+    const cursor = this.faqCollection.aggregate(pipeline);
+    return cursor.toArray();
   }
 
   async findOne(id: ObjectId) {

@@ -1,0 +1,322 @@
+[
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d101" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "question": "Thời gian giao hàng mất bao lâu?",
+    "answer": "Thời gian giao hàng thông thường là từ 2-5 ngày làm việc, tùy vào khu vực và loại sản phẩm.",
+    "createdAt": { "$date": "2024-12-24T08:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d102" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "question": "Tôi có thể thay đổi địa chỉ giao hàng sau khi đặt hàng không?",
+    "answer": "Có, bạn có thể thay đổi địa chỉ giao hàng trong vòng 12 giờ sau khi đặt hàng bằng cách liên hệ với bộ phận hỗ trợ khách hàng.",
+    "createdAt": { "$date": "2024-12-24T08:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d103" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "question": "Phí giao hàng được tính như thế nào?",
+    "answer": "Phí giao hàng được tính dựa trên trọng lượng và khoảng cách vận chuyển. Bạn sẽ thấy phí cụ thể khi hoàn tất đơn hàng.",
+    "createdAt": { "$date": "2024-12-24T08:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d104" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "question": "Tôi có thể theo dõi đơn hàng của mình không?",
+    "answer": "Có, bạn có thể theo dõi đơn hàng thông qua trang web hoặc ứng dụng của chúng tôi bằng cách nhập mã theo dõi đã được gửi qua email.",
+    "createdAt": { "$date": "2024-12-24T08:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d105" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d001" },
+    "question": "Điều gì xảy ra nếu tôi không nhận được đơn hàng?",
+    "answer": "Nếu bạn không nhận được đơn hàng sau thời gian dự kiến, vui lòng liên hệ với bộ phận hỗ trợ để được giải quyết.",
+    "createdAt": { "$date": "2024-12-24T08:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d201" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể trả lại sản phẩm trong bao lâu?",
+    "answer": "Bạn có thể trả lại sản phẩm trong vòng 7 ngày kể từ ngày nhận hàng, miễn là sản phẩm còn nguyên vẹn và chưa qua sử dụng.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d202" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Quy trình hoàn tiền diễn ra như thế nào?",
+    "answer": "Sau khi kiểm tra và xác nhận sản phẩm hoàn trả, tiền sẽ được hoàn vào tài khoản của bạn trong vòng 5-7 ngày làm việc.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d203" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có cần thanh toán phí vận chuyển khi trả hàng không?",
+    "answer": "Nếu sản phẩm bị lỗi hoặc hư hỏng do nhà sản xuất, chúng tôi sẽ chịu phí vận chuyển. Trong các trường hợp khác, bạn sẽ cần thanh toán phí vận chuyển.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d204" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể trả lại sản phẩm đã qua sử dụng không?",
+    "answer": "Chúng tôi chỉ chấp nhận trả lại các sản phẩm còn nguyên vẹn, chưa qua sử dụng và còn nhãn mác đầy đủ.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d205" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể đổi sản phẩm thay vì hoàn tiền không?",
+    "answer": "Có, bạn có thể chọn đổi sản phẩm khác thay vì nhận lại tiền. Vui lòng liên hệ với bộ phận hỗ trợ để được hướng dẫn chi tiết.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d201" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể trả lại sản phẩm trong bao lâu?",
+    "answer": "Bạn có thể trả lại sản phẩm trong vòng 7 ngày kể từ ngày nhận hàng, miễn là sản phẩm còn nguyên vẹn và chưa qua sử dụng.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d202" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Quy trình hoàn tiền diễn ra như thế nào?",
+    "answer": "Sau khi kiểm tra và xác nhận sản phẩm hoàn trả, tiền sẽ được hoàn vào tài khoản của bạn trong vòng 5-7 ngày làm việc.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d203" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có cần thanh toán phí vận chuyển khi trả hàng không?",
+    "answer": "Nếu sản phẩm bị lỗi hoặc hư hỏng do nhà sản xuất, chúng tôi sẽ chịu phí vận chuyển. Trong các trường hợp khác, bạn sẽ cần thanh toán phí vận chuyển.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d204" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể trả lại sản phẩm đã qua sử dụng không?",
+    "answer": "Chúng tôi chỉ chấp nhận trả lại các sản phẩm còn nguyên vẹn, chưa qua sử dụng và còn nhãn mác đầy đủ.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d205" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d002" },
+    "question": "Tôi có thể đổi sản phẩm thay vì hoàn tiền không?",
+    "answer": "Có, bạn có thể chọn đổi sản phẩm khác thay vì nhận lại tiền. Vui lòng liên hệ với bộ phận hỗ trợ để được hướng dẫn chi tiết.",
+    "createdAt": { "$date": "2024-12-24T08:10:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d301" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "question": "Tôi có thể thanh toán bằng những phương thức nào?",
+    "answer": "Chúng tôi chấp nhận thanh toán qua thẻ tín dụng, thẻ ghi nợ, chuyển khoản ngân hàng, ví điện tử và thanh toán khi nhận hàng (COD).",
+    "createdAt": { "$date": "2024-12-24T08:20:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d302" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "question": "Thanh toán khi nhận hàng (COD) là gì?",
+    "answer": "COD là phương thức thanh toán mà bạn sẽ trả tiền mặt cho nhân viên giao hàng sau khi nhận được sản phẩm.",
+    "createdAt": { "$date": "2024-12-24T08:20:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d303" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "question": "Làm thế nào để thanh toán bằng ví điện tử?",
+    "answer": "Bạn có thể chọn ví điện tử như Momo hoặc ZaloPay trong phần thanh toán, sau đó làm theo hướng dẫn để hoàn tất giao dịch.",
+    "createdAt": { "$date": "2024-12-24T08:20:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d304" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "question": "Tôi có thể sử dụng nhiều phương thức thanh toán cho một đơn hàng không?",
+    "answer": "Hiện tại, mỗi đơn hàng chỉ hỗ trợ một phương thức thanh toán. Vui lòng chọn phương thức phù hợp nhất khi thanh toán.",
+    "createdAt": { "$date": "2024-12-24T08:20:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d305" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d003" },
+    "question": "Tôi có thể lưu thông tin thẻ để thanh toán nhanh hơn không?",
+    "answer": "Có, bạn có thể lưu thông tin thẻ trong tài khoản của mình để thanh toán nhanh chóng trong các lần mua hàng tiếp theo. Thông tin này sẽ được mã hóa và bảo mật.",
+    "createdAt": { "$date": "2024-12-24T08:20:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d401" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "question": "Làm thế nào để tạo tài khoản mới?",
+    "answer": "Bạn có thể tạo tài khoản bằng cách nhấp vào nút 'Đăng ký' trên trang chủ và điền thông tin cần thiết như email, số điện thoại và mật khẩu.",
+    "createdAt": { "$date": "2024-12-24T08:30:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d402" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "question": "Tôi quên mật khẩu, làm thế nào để khôi phục?",
+    "answer": "Bạn có thể nhấp vào liên kết 'Quên mật khẩu' trên trang đăng nhập và làm theo hướng dẫn để đặt lại mật khẩu qua email hoặc số điện thoại đã đăng ký.",
+    "createdAt": { "$date": "2024-12-24T08:30:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d403" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "question": "Làm thế nào để thay đổi thông tin cá nhân?",
+    "answer": "Bạn có thể chỉnh sửa thông tin cá nhân bằng cách truy cập vào mục 'Tài khoản của tôi' và chọn 'Chỉnh sửa thông tin'.",
+    "createdAt": { "$date": "2024-12-24T08:30:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d404" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "question": "Làm thế nào để bảo vệ tài khoản của tôi?",
+    "answer": "Bạn nên đặt mật khẩu mạnh, bật xác thực hai yếu tố và không chia sẻ thông tin đăng nhập với người khác.",
+    "createdAt": { "$date": "2024-12-24T08:30:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d405" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d004" },
+    "question": "Tôi có thể xóa tài khoản của mình không?",
+    "answer": "Có, bạn có thể yêu cầu xóa tài khoản bằng cách liên hệ với bộ phận hỗ trợ khách hàng. Lưu ý rằng mọi dữ liệu liên quan sẽ bị xóa vĩnh viễn.",
+    "createdAt": { "$date": "2024-12-24T08:30:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d501" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "question": "Làm thế nào để sử dụng mã giảm giá?",
+    "answer": "Bạn có thể nhập mã giảm giá vào ô 'Mã giảm giá' tại trang thanh toán và nhấn 'Áp dụng' để được giảm giá.",
+    "createdAt": { "$date": "2024-12-24T08:40:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:40:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d502" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "question": "Tôi có thể sử dụng nhiều mã giảm giá cho một đơn hàng không?",
+    "answer": "Không, mỗi đơn hàng chỉ áp dụng được một mã giảm giá tại một thời điểm.",
+    "createdAt": { "$date": "2024-12-24T08:40:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:40:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d503" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "question": "Mã giảm giá của tôi không hoạt động, tôi phải làm gì?",
+    "answer": "Vui lòng kiểm tra lại ngày hết hạn, điều kiện sử dụng của mã giảm giá hoặc liên hệ bộ phận hỗ trợ để được trợ giúp.",
+    "createdAt": { "$date": "2024-12-24T08:40:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:40:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d504" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "question": "Tôi có thể đổi mã giảm giá sang tiền mặt không?",
+    "answer": "Không, mã giảm giá không thể quy đổi thành tiền mặt hoặc chuyển nhượng cho người khác.",
+    "createdAt": { "$date": "2024-12-24T08:40:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:40:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d505" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d005" },
+    "question": "Chương trình khuyến mãi có áp dụng cho tất cả sản phẩm không?",
+    "answer": "Một số chương trình khuyến mãi chỉ áp dụng cho sản phẩm nhất định. Vui lòng kiểm tra chi tiết trong phần mô tả chương trình.",
+    "createdAt": { "$date": "2024-12-24T08:40:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:40:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d601" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "question": "Làm thế nào để liên hệ với bộ phận chăm sóc khách hàng?",
+    "answer": "Bạn có thể liên hệ với chúng tôi qua số điện thoại hỗ trợ 1800-1234, email support@ecommerce.com hoặc trò chuyện trực tuyến trên website.",
+    "createdAt": { "$date": "2024-12-24T08:50:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d602" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "question": "Thời gian làm việc của bộ phận chăm sóc khách hàng là khi nào?",
+    "answer": "Bộ phận chăm sóc khách hàng hoạt động từ 8:00 đến 22:00 hàng ngày, bao gồm cả ngày lễ.",
+    "createdAt": { "$date": "2024-12-24T08:50:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d603" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "question": "Tôi có thể gửi khiếu nại hoặc phản hồi bằng cách nào?",
+    "answer": "Bạn có thể gửi khiếu nại hoặc phản hồi qua email support@ecommerce.com hoặc điền vào mẫu phản hồi trên website.",
+    "createdAt": { "$date": "2024-12-24T08:50:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d604" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "question": "Tôi có thể theo dõi tiến trình giải quyết yêu cầu hỗ trợ như thế nào?",
+    "answer": "Sau khi gửi yêu cầu, bạn sẽ nhận được một mã số yêu cầu qua email. Sử dụng mã này để theo dõi tiến trình trên website hoặc liên hệ trực tiếp với chúng tôi.",
+    "createdAt": { "$date": "2024-12-24T08:50:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d605" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d006" },
+    "question": "Có hỗ trợ trực tuyến qua chat không?",
+    "answer": "Có, chúng tôi cung cấp hỗ trợ trực tuyến qua tính năng chat trên website từ 8:00 đến 22:00 hàng ngày.",
+    "createdAt": { "$date": "2024-12-24T08:50:00Z" },
+    "updatedAt": { "$date": "2024-12-24T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d701" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "question": "Làm thế nào để đặt hàng trên website?",
+    "answer": "Bạn có thể chọn sản phẩm, thêm vào giỏ hàng, sau đó nhấn 'Thanh toán' và làm theo hướng dẫn để hoàn tất đơn hàng.",
+    "createdAt": { "$date": "2024-12-24T09:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d702" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "question": "Làm sao để biết đơn hàng của tôi đã được xác nhận?",
+    "answer": "Sau khi đặt hàng thành công, bạn sẽ nhận được email hoặc tin nhắn SMS xác nhận đơn hàng với thông tin chi tiết.",
+    "createdAt": { "$date": "2024-12-24T09:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d703" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "question": "Tôi có thể chỉnh sửa hoặc hủy đơn hàng đã đặt không?",
+    "answer": "Có, bạn có thể chỉnh sửa hoặc hủy đơn hàng trước khi đơn hàng được xử lý bằng cách liên hệ bộ phận chăm sóc khách hàng.",
+    "createdAt": { "$date": "2024-12-24T09:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d704" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "question": "Làm thế nào để theo dõi trạng thái đơn hàng?",
+    "answer": "Bạn có thể theo dõi trạng thái đơn hàng bằng cách đăng nhập vào tài khoản của mình, vào mục 'Đơn hàng của tôi' và kiểm tra trạng thái chi tiết.",
+    "createdAt": { "$date": "2024-12-24T09:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "6590a2f1e3b2f1a8b8c9d705" },
+    "category_id": { "$oid": "6590a1f1e3b2f1a8b8c9d007" },
+    "question": "Tôi có thể đặt hàng mà không cần tạo tài khoản không?",
+    "answer": "Có, bạn có thể đặt hàng với tư cách khách mà không cần tạo tài khoản. Tuy nhiên, tạo tài khoản sẽ giúp bạn dễ dàng theo dõi đơn hàng và quản lý thông tin mua sắm.",
+    "createdAt": { "$date": "2024-12-24T09:00:00Z" },
+    "updatedAt": { "$date": "2024-12-24T09:00:00Z" }
+  }
+]
