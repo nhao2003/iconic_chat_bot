@@ -24,7 +24,28 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project implements a chatbot API using NestJS, Gemini AI, and MongoDB. The API allows users to interact with an intelligent chatbot powered by Gemini's AI capabilities, providing responses based on natural language processing and machine learning.
+
+![Description](./images/hero.png)
+
+
+## Features
+
+* Chat Interface: Endpoints for sending and receiving messages in real-time.
+
+* AI Integration: Leveraging Gemini AI for natural language understanding and generating intelligent responses.
+
+* Database Support: MongoDB for storing user data and chat histories.
+
+# Tech Stack
+
+* Backend Framework: NestJS (TypeScript)
+
+* AI Service: Gemini API
+
+* Database: MongoDB
+
+* Environment Management: dotenv
 
 ## Project setup
 
@@ -87,12 +108,6 @@ Check out a few resources that may come in handy when working with NestJS:
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
